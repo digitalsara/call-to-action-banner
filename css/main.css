@@ -13,6 +13,7 @@ body {
 h1, h2 {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
+  display: inline;
 }
 
 p {
@@ -28,8 +29,8 @@ p {
 
 .img-circle {
   position: absolute;
-  display: block;
-  left: 10%;
+  display: inline;
+  left: -100px;
 }
 
 .banner {
@@ -39,6 +40,10 @@ p {
 }
 
 .btn-big {
+  display: inline;
   position: absolute;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6rem;
 }
