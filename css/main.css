@@ -10,8 +10,8 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
+.banner h2 {
+  font-family: Roboto, sans-serif;
   font-size: 3rem;
   display: inline;
 }
@@ -27,9 +27,8 @@ p {
 }
 
 .img-circle {
-  position: absolute;
-  display: inline;
-  left: -100px;
+  float: left;
+  width: 40%;
 }
 
 .banner {
@@ -38,8 +37,9 @@ p {
   position: relative;
 }
 
-.content {
-  position: absolute;
+.title {
+  display: inline;
+  float: right;
 }
 
 .content {
@@ -47,15 +47,22 @@ p {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  padding: 6rem;
+  padding: 3em 6rem;
 }
 
 .btn {
-  background-color: #333333;
+  background-color: #333;
   border-radius: 6px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  padding: 16px;
+  padding: 16px 20px;
   text-decoration: none;
+}
+
+.btn-big {
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
 }
